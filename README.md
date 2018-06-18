@@ -38,13 +38,4 @@ _Model strategy_
 
 From the result of the basic model, I performed a feature selection using the feature importance from the XGBoost output. I have removed the features with value zero and close to zero.
 
-With the new list of variables, I have performed the grid search to optimise the model. The result for the last model was 0.0298528 (in this I did not use the feature selection and I used all the features). 
-###### Future improvements
-
-These are the list of possible areas that I have identified as potential improvements:
-
-- I have used training data with target in June 2015 which worked better that 2016. However, this is not optimal, as I have not used the most recent data. A good approach can be to try to combine the result from the two models.
-- I have used a single model with multiple categories. However, products seem to change in different way during the year with some general trends and single product trends. Maybe, by building a single binary model for each product, prediction can be improved.
-- More time could be dedicated to understanding the relationship between abandoning and acquiring new products.
-- I have not tested a solution based collaborative filter. I have tried to use this in the past on tariff recommendation models in telco with very negative results. However, this could be something to test.
-- Finally, I have only tested a XGBoost, while logistic regression and random forest were other potential candidates.
+With the new list of variables, I have performed the grid search to optimise the model. The result for the last model was 0.0298528 .
