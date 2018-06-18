@@ -39,3 +39,6 @@ _Model strategy_
 From the result of the basic model, I performed a feature selection using the feature importance from the XGBoost output. I have removed the features with value zero and close to zero.
 
 With the new list of variables, I have performed the grid search to optimise the model. The result for the last model was 0.0298528 .
+
+
+Data is available on Kaggle website : https://www.kaggle.com/c/santander-product-recommendation/data
