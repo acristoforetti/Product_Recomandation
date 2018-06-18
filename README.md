@@ -1,4 +1,4 @@
-# Technical Assessment &#39;Santander Product Recommendation&#39;
+# Santander Product Recommendation&#39;
 
 
 
